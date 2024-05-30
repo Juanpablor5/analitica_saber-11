@@ -1,0 +1,13 @@
+format: jb-book
+root: content/main
+
+chapters:
+  - file: content/introduccion
+  - file: content/objetivos
+  - file: content/bd_aws
+  - file: content/etl
+    sections:
+      - file: content/etl/etl_analitica
+      - file: content/etl/prefect
+  - file: content/flujo_ml
+  - file: content/visualizacion

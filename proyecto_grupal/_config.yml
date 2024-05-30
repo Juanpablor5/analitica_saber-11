@@ -1,0 +1,35 @@
+title: Análisis de Puntaje Global de Pruebas Saber 11 en el periodo comprendido de 2014-1 a 2022-2
+author: Aza Daniel, Díaz Nataly, Estupiñán Juan, Rocha Juan, Rodríguez Silvana
+logo: assets/logo.png
+
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  thebe: true
+
+execute:
+  execute_notebooks: "off"
+
+sphinx:
+  extra_extensions:
+    - sphinx_togglebutton
+
+# Opciones adicionales para myst-nb
+parse:
+  myst_enable_extensions: ["colon_fence", "dollarmath", "linkify", "substitution", "tasklist"]
+  myst_url_schemes: ["mailto", "http", "https"]
+
+# Personalización adicional
+html:
+  theme:
+    name: "sphinx_book_theme"
+    options:
+      search_bar_text: "Search this book..."
+      show_navbar_depth: 2
+      home_page_in_toc: true
+      use_repository_button: true
+      repository_url: "https://github.com/tu-repositorio"
+      path_to_docs: "docs/"
+      repository_branch: "main"
+      extra_navbar: "<p>Powered by Jupyter Book</p>"
+      extra_footer: "<p>My Book Footer</p>"
+  logo: "assets/logo.png"
