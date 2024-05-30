@@ -5,9 +5,11 @@ chapters:
   - file: content/introduccion
   - file: content/objetivos
   - file: content/bd_aws
+  - file: content/exploracion_datos
   - file: content/etl
     sections:
       - file: content/etl/etl_analitica
       - file: content/etl/prefect
   - file: content/flujo_ml
   - file: content/visualizacion
+  - file: content/conclusiones
