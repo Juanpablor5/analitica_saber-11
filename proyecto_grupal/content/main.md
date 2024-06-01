@@ -1,4 +1,6 @@
-# Resumen
+# Análisis de Puntaje Global de Pruebas Saber 11 en el periodo comprendido de 2014-1 a 2022-2
+
+## Resumen
 
 En el siguiente trabajo para la materia de Big Data, se realizará un análisis de datos utilizando la base de datos pública de las pruebas Saber 11, obtenida del portal Datos Abiertos de Colombia. El objetivo principal es explorar las relaciones entre las diversas variables contenidas en esta base de datos y el puntaje global de las pruebas. Para ello, se llevó a cabo un proceso de ETL (Extracción, Transformación y Carga), donde los datos fueron subidos a AWS utilizando PostgreSQL, DBeaver y Prefect.
 
